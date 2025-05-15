@@ -25,23 +25,6 @@ The project directory should contain the following files:
 * `Heart disease dataset.csv`: The dataset used for training and prediction.
 * `README.md`: This file, providing information about the project.
 
-## Dependencies
-
-This project likely relies on the following Python libraries:
-
-* pandas: For data manipulation and analysis.
-* scikit-learn (sklearn): For machine learning algorithms and tools.
-
-You can install these dependencies using pip if you haven't already:
-
-```bash
-pip install pandas scikit-learn
-# Heart Disease Prediction Using ANN
-
-This project builds an Artificial Neural Network (ANN) to predict the likelihood of heart disease based on health metrics such as age, cholesterol, and blood pressure.
-
----
-
 ## 🧠 Problem Statement
 
 Develop a binary classification ANN model that can predict the presence of heart disease using 13 input features derived from medical data.
