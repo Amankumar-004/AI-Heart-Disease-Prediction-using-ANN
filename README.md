@@ -17,10 +17,6 @@ This project implements an Artificial Neural Network (ANN) to predict the likeli
 - NumPy (>= 1.x)
 - scikit-learn (>= 1.x)
 
-Install dependencies:
-```bash
-pip install tensorflow pandas numpy scikit-learn
-
 ## Project Structure
 
 The project directory should contain the following files:
