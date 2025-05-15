@@ -74,6 +74,40 @@ Where:
 accuracy = (cm[0][0] + cm[1][1]) / (cm[0][1] + cm[1][0] + cm[0][0] + cm[1][1])
 print(accuracy * 100)
 ```
+Example:
+For a confusion matrix like:
+cm = [[50, 10],
+      [5, 85]]
+Accuracy will be:
+
+50
++
+85
+50
++
+85
++
+10
++
+5
+=
+135
+150
+=
+0.90
+→
+90
+%
+50+85+10+5
+50+85
+​
+ = 
+150
+135
+​
+ =0.90→90%
+ Expected Result
+We expect the accuracy to be approximately 85%, depending on the actual values in the confusion matrix.
 
 ## ⚠️ Notes & Warnings
 
