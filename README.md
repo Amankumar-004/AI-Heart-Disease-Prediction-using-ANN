@@ -79,33 +79,37 @@ For a confusion matrix like:
 cm = [[50, 10],
       [5, 85]]
 Accuracy will be:
+1.  **Numerator Calculation:**
+    ```
+    50 + 85 = 135
+    ```
 
-50
-+
-85/
-50
-+
-85
-+
-10
-+
-5
-=
-135/
-150
-=
-0.90
-→
-90
-%
-50+85+10+5
-50+85
-​
- = 
-150
-135
-​
- =0.90→90%
+2.  **Denominator Calculation:**
+    ```
+    50 + 85 + 10 + 5 = 150
+    ```
+
+3.  **Fraction Formation:**
+    The calculation can be represented as a fraction:
+    ```
+    135 / 150
+    ```
+
+4.  **Decimal Conversion:**
+    Dividing the numerator by the denominator yields the decimal value:
+    ```
+    135 ÷ 150 = 0.90
+    ```
+
+5.  **Percentage Conversion:**
+    Multiplying the decimal by 100 converts it to a percentage:
+    ```
+    0.90 * 100 = 90%
+    ```
+
+## Summary
+
+The provided calculation demonstrates that the ratio of the sum of 50 and 85 to the sum of 50, 85, 10, and 5 is equal to 0.90, or 90%.
  Expected Result
 We expect the accuracy to be approximately 85%, depending on the actual values in the confusion matrix.
 
