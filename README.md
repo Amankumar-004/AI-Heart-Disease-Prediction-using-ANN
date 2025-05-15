@@ -110,7 +110,8 @@ Accuracy will be:
 ## Summary
 
 The provided calculation demonstrates that the ratio of the sum of 50 and 85 to the sum of 50, 85, 10, and 5 is equal to 0.90, or 90%.
- Expected Result
+
+## Expected Result
 We expect the accuracy to be approximately 85%, depending on the actual values in the confusion matrix.
 
 ## ⚠️ Notes & Warnings
