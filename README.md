@@ -49,6 +49,31 @@ An Artificial Neural Network (ANN) model is used for binary classification with 
 - This dataset is commonly used for heart disease prediction in machine learning research.
 
 ---
+# Confusion Matrix Accuracy Calculator
+
+## Overview
+
+This simple Python script calculates the **accuracy** of a classification model using a confusion matrix.
+
+### Accuracy Formula:
+
+\[
+\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
+\]
+
+Where:
+
+- `TP` = True Positives = `cm[1][1]`
+- `TN` = True Negatives = `cm[0][0]`
+- `FP` = False Positives = `cm[0][1]`
+- `FN` = False Negatives = `cm[1][0]`
+
+### Sample Code:
+
+```python
+accuracy = (cm[0][0] + cm[1][1]) / (cm[0][1] + cm[1][0] + cm[0][0] + cm[1][1])
+print(accuracy * 100)
+```
 
 ## ⚠️ Notes & Warnings
 
