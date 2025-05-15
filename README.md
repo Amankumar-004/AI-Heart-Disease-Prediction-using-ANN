@@ -1,4 +1,4 @@
-# Heart Disease Prediction using Artificial Neural Network (ANN)
+# AI Heart Disease Prediction using Artificial Neural Network (ANN)
 
 ## Overview
 This project implements an Artificial Neural Network (ANN) to predict the likelihood of a person having heart disease based on a dataset of health-related attributes. Built with Python, Keras, and TensorFlow, the model provides a binary classification output for heart disease presence.
